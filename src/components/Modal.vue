@@ -72,6 +72,7 @@ function onStartClick() {
               name="count"
               class="px-2 py-2 border-gray-400 border rounded-md w-[500px] outline-none"
               :class="showError && 'border-red-400'"
+              @keydown.enter="onStartClick"
             />
             <p v-if="showError" class="text-sm mt-1 font-light text-red-500">
               Enter a number between 20-200

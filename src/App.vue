@@ -46,7 +46,7 @@ function onSortingConfirm(value) {
         class="ml-auto mr-5"
       />
       <button
-        class="bg-orange-500 px-5 py-4 rounded text-white"
+        class="bg-orange-500 px-5 py-4 rounded text-white outline-none"
         @click="isOpen = true"
       >
         Start Sorting!
